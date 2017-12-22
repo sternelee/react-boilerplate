@@ -13,6 +13,7 @@
 
 #react-fastify
 /react-fastify/node_modules
+/react-fastify/.next
 
 # dependencies
 /node_modules
