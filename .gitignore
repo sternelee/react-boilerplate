@@ -11,6 +11,9 @@
 #react-h5game-app
 /react-h5game-app/node_modules
 
+#react-parcel
+/react-parcel/node_modules
+
 #react-fastify
 /react-fastify/node_modules
 /react-fastify/.next

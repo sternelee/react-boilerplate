@@ -1,0 +1,24 @@
+{
+  "name": "react-parcel",
+  "version": "1.0.0",
+  "description": "use parcel-bundler for react",
+  "main": "index.html",
+  "author": "sternelee",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development parcel index.html",
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "latest",
+    "parcel-bundler": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "stylus-loader": "latest"
+  },
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  }
+}
