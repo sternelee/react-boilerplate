@@ -1,24 +1,29 @@
 {
   "name": "react-parcel",
   "version": "1.0.0",
-  "description": "use parcel-bundler for react",
+  "description": "use parcel-bundler and mobx for react",
   "main": "index.html",
   "author": "sternelee",
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development parcel index.html",
-    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify"
+    "build": "cross-env NODE_ENV=production parcel build index.html"
   },
   "dependencies": {
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-1": "latest",
     "cross-env": "latest",
+    "mobx": "latest",
+    "mobx-react": "latest",
+    "mobx-react-devtools": "latest",
     "parcel-bundler": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "stylus-loader": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "stylus": "^0.54.5"
+    "stylus": "latest"
   }
 }
