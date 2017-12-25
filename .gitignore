@@ -13,6 +13,8 @@
 
 #react-parcel
 /react-parcel/node_modules
+/react-parcel/dist
+/react-parcel/.cache
 
 #react-fastify
 /react-fastify/node_modules

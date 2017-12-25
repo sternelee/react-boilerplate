@@ -19,6 +19,7 @@
     "mobx": "latest",
     "mobx-react": "latest",
     "mobx-react-devtools": "latest",
+    "mobx-router": "^0.0.8",
     "parcel-bundler": "latest",
     "react": "latest",
     "react-dom": "latest"
