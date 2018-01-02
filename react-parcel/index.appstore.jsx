@@ -5,6 +5,8 @@ import {Provider} from 'mobx-react';
 import {MobxRouter, RouterStore, startRouter} from 'mobx-router';
 import views from './appstore/views';
 
+import './appstore/styles/main.styl';
+
 //example mobx store
 const store = {
 	app: {

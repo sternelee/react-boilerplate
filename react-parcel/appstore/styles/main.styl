@@ -1,0 +1,53 @@
+p2r(px)
+  return unit(px * 320 / designWidth / 20, 'rem')
+
+
+
+designWidth = 750;
+
+
+* 
+    padding 0
+    margin 0
+
+ul
+li
+    list-style none
+
+body
+	width 16rem
+	margin 0 auto
+
+.header-ico
+    width p2r(80)
+    height p2r(80)
+    border-radius 50%
+    float right
+
+.home
+    ul
+        margin-top p2r(20)
+    li
+        margin 0 auto
+        width p2r(672)
+        height p2r(824)
+        overflow hidden
+        display block
+        border-radius p2r(18)
+        position relative
+        margin-bottom p2r(60)
+        img 
+            width 100%
+            height auto
+        h3
+            position absolute
+            width p2r(368)
+            top p2r(88)
+            left p2r(40)
+            color #fff
+        p
+            position absolute
+            bottom p2r(40)
+            left p2r(20)
+            color #fff
+            font-size p2r(20)

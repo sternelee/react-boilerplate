@@ -20,6 +20,9 @@
 /react-fastify/node_modules
 /react-fastify/.next
 
+/react-samples
+
+
 # dependencies
 /node_modules
 
