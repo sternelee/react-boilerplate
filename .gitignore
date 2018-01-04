@@ -23,6 +23,9 @@
 /react-samples
 
 
+/react-router-redux-app/node_modules
+
+
 # dependencies
 /node_modules
 

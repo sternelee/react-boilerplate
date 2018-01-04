@@ -1,9 +1,13 @@
 // /pages/about.js
+import { DatePicker } from 'antd';
 
 export default () => 
 <div>
     Hello world
     <p style={{ color: 'red' }}>hi there</p>
+    <p>
+        <DatePicker />
+    </p>
     <style jsx>{`
     p {
         color: blue;
