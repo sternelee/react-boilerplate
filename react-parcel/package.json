@@ -7,9 +7,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development parcel index.html",
-    "build": "cross-env NODE_ENV=production parcel build index.html"
+    "build": "cross-env NODE_ENV=production parcel build index.html",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "antd": "^3.2.0",
     "babel-plugin-transform-decorators-legacy": "latest",
     "babel-preset-env": "latest",
     "babel-preset-es2015": "latest",
@@ -29,6 +32,11 @@
     "redux": "^3.7.2"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^3.3.12",
+    "@storybook/addon-links": "^3.3.12",
+    "@storybook/addons": "^3.3.12",
+    "@storybook/react": "^3.3.12",
+    "babel-core": "^6.26.0",
     "stylus": "latest"
   }
 }

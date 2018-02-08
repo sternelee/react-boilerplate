@@ -9,6 +9,7 @@ import DevTools from "mobx-react-devtools";
 
 import TodoList from "./components/TodoList";
 import TodoListModel from "./models/TodoListModel";
+import ListCheck from './ListCheck';
 
 const store = new TodoListModel();
 store.addTodo('new Todo');
@@ -18,6 +19,7 @@ const App = () => (
     <DevTools />
     <TodoList store={store} />
     <input type="text"/>
+    <ListCheck />
   </div>
 );
 
