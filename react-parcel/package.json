@@ -31,7 +31,8 @@
     "react-redux": "latest",
     "react-router-dom": "latest",
     "react-router-redux": "latest",
-    "redux": "latest"
+    "redux": "latest",
+    "spectre.css": "^0.5.1"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.13",
