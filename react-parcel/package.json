@@ -12,32 +12,33 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "antd": "^3.2.1",
+    "antd": "latest",
     "babel-plugin-transform-decorators-legacy": "latest",
     "babel-preset-env": "latest",
     "babel-preset-es2015": "latest",
     "babel-preset-react": "latest",
     "babel-preset-stage-1": "latest",
     "cross-env": "latest",
+    "lodash": "latest",
     "mobx": "latest",
     "mobx-react": "latest",
     "mobx-react-devtools": "latest",
-    "mobx-router": "^0.0.8",
-    "mobx-state-tree": "^1.3.1",
+    "mobx-router": "latest",
+    "mobx-state-tree": "latest",
     "parcel-bundler": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-redux": "^5.0.7",
-    "react-router-dom": "^4.2.2",
-    "react-router-redux": "^4.0.8",
-    "redux": "^3.7.2"
+    "react-redux": "latest",
+    "react-router-dom": "latest",
+    "react-router-redux": "latest",
+    "redux": "latest"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.13",
     "@storybook/addon-links": "^3.3.13",
     "@storybook/addons": "^3.3.13",
     "@storybook/react": "^3.3.13",
-    "babel-core": "^6.26.0",
+    "babel-core": "latest",
     "stylus": "latest"
   }
 }

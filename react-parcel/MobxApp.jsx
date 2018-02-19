@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { toJS } from 'mobx';
 import { observer } from 'mobx-react';
 import { types as t, onSnapshot } from 'mobx-state-tree';
+import _ from 'lodash';
 
 
 const Todo = t.model("Todo", {
@@ -16,7 +17,11 @@ const Todo = t.model("Todo", {
 const Store = t.model("Store", {
     todos: t.array(Todo),
     name: t.string
-})
+}).actions(self => ({
+    newName(newName) {
+        self.name = newName
+    }
+}))
  
 // create an instance from a snapshot
 const store = Store.create({ 
@@ -32,6 +37,8 @@ onSnapshot(store, (snapshot) => {
  
 // invoke action that modifies the tree
 store.todos[0].toggle()
+
+store.newName('Sterne Lee 2333')
 // prints: `{ todos: [{ title: "Get coffee", done: true }]}`
 
 // store.name = "Mobx-State-Tree";
@@ -41,14 +48,14 @@ class MobxApp extends Component {
     render() {
         const { todos } = store;
         const _todos = toJS(todos);
-        console.log(_todos);
+        console.log(_.isArray(_todos), _todos);
         return (
             <div>
                 <h2>I Love Mobx</h2>
                 <p>{store.name}</p>
-                {/* {
-                    _todos.map(v => <p>{v}</p>)
-                } */}
+                {
+                    todos.map((v, i) => <p key={i}>{v.title}</p>)
+                }
             </div>
         )
     }
