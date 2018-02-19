@@ -13,7 +13,7 @@ class ListCheck extends Component {
     render() {
         const SpansMap = Nums.map((v, i) => {
             return (
-                <Number number={v} on={true} onClick={this.onNumberClick.bind(this, v)} />
+                <Number number={v} key={i} on={true} onClick={this.onNumberClick.bind(this, v)} />
             )
         })
         

@@ -10,12 +10,14 @@ import DevTools from "mobx-react-devtools";
 import TodoList from "./components/TodoList";
 import TodoListModel from "./models/TodoListModel";
 import ListCheck from './ListCheck';
+import MobxApp from './MobxApp';
 
 const store = new TodoListModel();
 store.addTodo('new Todo');
 const App = () => (
   <div className="App">
     <h2>Hello Parcel</h2>
+    <MobxApp />
     <DevTools />
     <TodoList store={store} />
     <input type="text"/>
