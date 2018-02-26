@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.styl';
+import ListCheck from './components/ListCheck';
 
 const App = () => (
   <div className="App">
-    <h1 className="App-Title">Hello Parcel x React</h1>
+    <h1 className="App-Title">Hello Parcel React</h1>
+    <ListCheck />
   </div>
 );
 

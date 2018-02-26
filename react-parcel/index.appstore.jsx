@@ -16,7 +16,7 @@ const store = {
 	//here's how we can plug the routerStore into our store
 	router: new RouterStore()
 };
-
+  
 startRouter(views, store);
 
 ReactDOM.render(

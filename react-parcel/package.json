@@ -7,28 +7,36 @@
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development parcel index.html",
-    "build": "cross-env NODE_ENV=production parcel build index.html"
+    "build": "cross-env NODE_ENV=production parcel build index.html",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "antd": "^3.2.0",
     "babel-plugin-transform-decorators-legacy": "latest",
-    "babel-preset-env": "latest",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-es2015": "latest",
-    "babel-preset-react": "latest",
+    "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "latest",
     "cross-env": "latest",
     "mobx": "latest",
     "mobx-react": "latest",
     "mobx-react-devtools": "latest",
     "mobx-router": "^0.0.8",
-    "parcel-bundler": "latest",
-    "react": "latest",
-    "react-dom": "latest",
+    "parcel-bundler": "^1.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^4.0.8",
     "redux": "^3.7.2"
   },
   "devDependencies": {
-    "stylus": "latest"
+    "stylus": "latest",
+    "@storybook/react": "^3.3.12",
+    "@storybook/addon-actions": "^3.3.12",
+    "@storybook/addon-links": "^3.3.12",
+    "@storybook/addons": "^3.3.12",
+    "babel-core": "^6.26.0"
   }
 }
