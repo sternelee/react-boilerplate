@@ -25,6 +25,9 @@
 
 /react-router-redux-app/node_modules
 
+/react-next/node_modules
+/react-next/.next
+
 
 # dependencies
 /node_modules
