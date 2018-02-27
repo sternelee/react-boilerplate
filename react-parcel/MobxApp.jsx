@@ -43,6 +43,7 @@ store.newName('Sterne Lee 2333')
 
 // store.name = "Mobx-State-Tree";
 
+// console.log(a);
 @observer
 class MobxApp extends Component {
     render() {
