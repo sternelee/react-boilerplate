@@ -7151,6 +7151,10 @@ wide-align@^1.1.0:
   dependencies:
     string-width "^1.0.2"
 
+window-onerror-logger@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.npm.taobao.org/window-onerror-logger/download/window-onerror-logger-3.0.0.tgz#8b5828f3f7380be160d265236644bc450f9a2019"
+
 window-size@0.1.0:
   version "0.1.0"
   resolved "http://registry.npm.taobao.org/window-size/download/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"

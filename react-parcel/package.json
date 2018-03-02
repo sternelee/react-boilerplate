@@ -32,7 +32,8 @@
     "react-router-dom": "latest",
     "react-router-redux": "latest",
     "redux": "latest",
-    "spectre.css": "^0.5.1"
+    "spectre.css": "^0.5.1",
+    "window-onerror-logger": "^3.0.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.13",
