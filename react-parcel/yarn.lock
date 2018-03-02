@@ -297,9 +297,9 @@ ansi-styles@^3.1.0:
   dependencies:
     color-convert "^1.9.0"
 
-antd@latest:
-  version "3.2.1"
-  resolved "http://registry.npm.taobao.org/antd/download/antd-3.2.1.tgz#141d87b61063b58aa1cd392d0bf5fb953e96eeec"
+antd@^3.2.2:
+  version "3.2.2"
+  resolved "http://registry.npm.taobao.org/antd/download/antd-3.2.2.tgz#522abfee52d3ba1194cf394e4b857f208c5c3c9a"
   dependencies:
     array-tree-filter "^2.0.0"
     babel-runtime "6.x"
@@ -1265,7 +1265,7 @@ babel-polyfill@6.23.0:
     core-js "^2.4.0"
     regenerator-runtime "^0.10.0"
 
-babel-preset-env@1.6.1, babel-preset-env@^1.6.1, babel-preset-env@latest:
+babel-preset-env@1.6.1, babel-preset-env@^1.6.1:
   version "1.6.1"
   resolved "http://registry.npm.taobao.org/babel-preset-env/download/babel-preset-env-1.6.1.tgz#a18b564cc9b9afdf4aae57ae3c1b0d99188e6f48"
   dependencies:
@@ -1381,7 +1381,7 @@ babel-preset-react-app@^3.1.0:
     babel-preset-env "1.6.1"
     babel-preset-react "6.24.1"
 
-babel-preset-react@6.24.1, babel-preset-react@^6.24.1, babel-preset-react@latest:
+babel-preset-react@6.24.1, babel-preset-react@^6.24.1:
   version "6.24.1"
   resolved "http://registry.npm.taobao.org/babel-preset-react/download/babel-preset-react-6.24.1.tgz#ba69dfaea45fc3ec639b6a4ecea6e17702c91380"
   dependencies:
@@ -1988,13 +1988,10 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
-<<<<<<< HEAD
 command-exists@^1.2.2:
   version "1.2.2"
   resolved "http://registry.npm.taobao.org/command-exists/download/command-exists-1.2.2.tgz#12819c64faf95446ec0ae07fe6cafb6eb3708b22"
 
-=======
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
 commander@2.12.x, commander@^2.11.0, commander@~2.12.1:
   version "2.12.2"
   resolved "http://registry.npm.taobao.org/commander/download/commander-2.12.2.tgz#0f5946c427ed9ec0d91a46bb9def53e54650e555"
@@ -3384,11 +3381,7 @@ hoist-non-react-statics@1.x.x, hoist-non-react-statics@^1.2.0:
   version "1.2.0"
   resolved "http://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
-<<<<<<< HEAD
-hoist-non-react-statics@^2.2.1, hoist-non-react-statics@^2.3.0, hoist-non-react-statics@^2.3.1:
-=======
 hoist-non-react-statics@^2.3.0, hoist-non-react-statics@^2.3.1:
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
   version "2.3.1"
   resolved "http://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-2.3.1.tgz#343db84c6018c650778898240135a1420ee22ce0"
 
@@ -4099,30 +4092,19 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "http://registry.npm.taobao.org/lodash.uniq/download/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-<<<<<<< HEAD
-=======
 lodash.uniqby@^4.7.0:
   version "4.7.0"
   resolved "http://registry.npm.taobao.org/lodash.uniqby/download/lodash.uniqby-4.7.0.tgz#d99c07a669e9e6d24e1362dfe266c67616af1302"
 
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
 lodash@^3.10.1:
   version "3.10.1"
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-<<<<<<< HEAD
-lodash@^4.14.0, lodash@^4.16.5, lodash@^4.17.0, lodash@^4.17.3, lodash@^4.3.0:
-  version "4.17.5"
-  resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
-
-lodash@^4.17.4, lodash@^4.2.0, lodash@^4.2.1:
-=======
 lodash@^4.14.0, lodash@^4.16.5, lodash@^4.17.0, lodash@^4.17.3, lodash@^4.17.5, lodash@^4.3.0, lodash@latest:
   version "4.17.5"
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
 
 lodash@^4.17.4, lodash@^4.2.1:
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
   version "4.17.4"
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -4260,12 +4242,6 @@ miller-rabin@^4.0.0:
   dependencies:
     bn.js "^4.0.0"
     brorand "^1.0.1"
-
-milligram@^1.3.0:
-  version "1.3.0"
-  resolved "http://registry.npm.taobao.org/milligram/download/milligram-1.3.0.tgz#a5d980ef8eaf79337c96a8d7c7e176764931042c"
-  dependencies:
-    normalize.css "~5.0.0"
 
 mime-db@~1.30.0:
   version "1.30.0"
@@ -4541,13 +4517,6 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-<<<<<<< HEAD
-=======
-normalize.css@~5.0.0:
-  version "5.0.0"
-  resolved "http://registry.npm.taobao.org/normalize.css/download/normalize.css-5.0.0.tgz#7cec875ce8178a5333c4de80b68ea9c18b9d7c37"
-
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "http://registry.npm.taobao.org/npm-run-path/download/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
@@ -4754,15 +4723,9 @@ param-case@2.1.x:
   dependencies:
     no-case "^2.2.0"
 
-<<<<<<< HEAD
-parcel-bundler@^1.5.1:
-  version "1.5.1"
-  resolved "http://registry.npm.taobao.org/parcel-bundler/download/parcel-bundler-1.5.1.tgz#6329100030fe2916cc0ad09bc619a303005382de"
-=======
 parcel-bundler@latest:
   version "1.3.0"
   resolved "http://registry.npm.taobao.org/parcel-bundler/download/parcel-bundler-1.3.0.tgz#6bdea2d9acc696d8bf9a3a36e77c56defcffccc8"
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
   dependencies:
     babel-core "^6.25.0"
     babel-generator "^6.25.0"
@@ -4772,11 +4735,9 @@ parcel-bundler@latest:
     browser-resolve "^1.11.2"
     chalk "^2.1.0"
     chokidar "^1.7.0"
-    command-exists "^1.2.2"
     commander "^2.11.0"
     cross-spawn "^5.1.0"
     cssnano "^3.10.0"
-    dotenv "^4.0.0"
     get-port "^3.2.0"
     glob "^7.1.2"
     htmlnano "^0.1.6"
@@ -4785,7 +4746,6 @@ parcel-bundler@latest:
     json5 "^0.5.1"
     micromatch "^3.0.4"
     mkdirp "^0.5.1"
-    node-forge "^0.7.1"
     node-libs-browser "^2.0.0"
     opn "^5.1.0"
     physical-cpu-count "^2.0.0"
@@ -4795,12 +4755,9 @@ parcel-bundler@latest:
     resolve "^1.4.0"
     sanitize-filename "^1.6.1"
     serve-static "^1.12.4"
-    source-map "0.6.1"
-    toml "^2.3.3"
-    tomlify-j0.4 "^3.0.0"
     uglify-es "^3.2.1"
     v8-compile-cache "^1.1.0"
-    worker-farm "^1.5.2"
+    worker-farm "^1.4.1"
     ws "^3.3.3"
 
 parse-asn1@^5.0.0:
@@ -5777,11 +5734,7 @@ react-docgen@^2.20.0:
     node-dir "^0.1.10"
     recast "^0.12.6"
 
-<<<<<<< HEAD
-react-dom@^16.2.0:
-=======
 react-dom@latest:
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
   version "16.2.0"
   resolved "http://registry.npm.taobao.org/react-dom/download/react-dom-16.2.0.tgz#69003178601c0ca19b709b33a83369fe6124c044"
   dependencies:
@@ -5825,26 +5778,6 @@ react-inspector@^2.2.2:
 react-lazy-load@^3.0.12:
   version "3.0.13"
   resolved "http://registry.npm.taobao.org/react-lazy-load/download/react-lazy-load-3.0.13.tgz#3b0a92d336d43d3f0d73cbe6f35b17050b08b824"
-<<<<<<< HEAD
-  dependencies:
-    eventlistener "0.0.1"
-    lodash.debounce "^4.0.0"
-    lodash.throttle "^4.0.0"
-    prop-types "^15.5.8"
-
-react-modal@^3.1.10:
-  version "3.1.11"
-  resolved "http://registry.npm.taobao.org/react-modal/download/react-modal-3.1.11.tgz#95c8223fcee7013258ad2d149c38c9f870c89958"
-  dependencies:
-    exenv "^1.2.0"
-    prop-types "^15.5.10"
-    warning "^3.0.0"
-
-react-redux@^5.0.6:
-  version "5.0.6"
-  resolved "http://registry.npm.taobao.org/react-redux/download/react-redux-5.0.6.tgz#23ed3a4f986359d68b5212eaaa681e60d6574946"
-=======
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
   dependencies:
     eventlistener "0.0.1"
     lodash.debounce "^4.0.0"
@@ -5935,47 +5868,6 @@ react-transition-group@^1.1.2:
     prop-types "^15.5.6"
     warning "^3.0.0"
 
-<<<<<<< HEAD
-=======
-react-slick@~0.17.0:
-  version "0.17.1"
-  resolved "http://registry.npm.taobao.org/react-slick/download/react-slick-0.17.1.tgz#64b6a23d3b3823047e6e705a3578301483da8748"
-  dependencies:
-    can-use-dom "^0.1.0"
-    classnames "^2.2.5"
-    create-react-class "^15.5.2"
-    enquire.js "^2.1.6"
-    json2mq "^0.2.0"
-    object-assign "^4.1.0"
-    opencollective "^1.0.3"
-
-react-split-pane@^0.1.74:
-  version "0.1.76"
-  resolved "http://registry.npm.taobao.org/react-split-pane/download/react-split-pane-0.1.76.tgz#b2ba11e1055e18b6b0fd56e13e3adb35aec87af6"
-  dependencies:
-    "@types/inline-style-prefixer" "^3.0.0"
-    "@types/react" "^16.0.18"
-    inline-style-prefixer "^3.0.6"
-    prop-types "^15.5.10"
-    react-style-proptype "^3.0.0"
-
-react-style-proptype@^3.0.0:
-  version "3.1.0"
-  resolved "http://registry.npm.taobao.org/react-style-proptype/download/react-style-proptype-3.1.0.tgz#c8912fc13460f5b0c1ec1114c729d535b52b8073"
-  dependencies:
-    prop-types "^15.5.4"
-
-react-transition-group@^1.1.2:
-  version "1.2.1"
-  resolved "http://registry.npm.taobao.org/react-transition-group/download/react-transition-group-1.2.1.tgz#e11f72b257f921b213229a774df46612346c7ca6"
-  dependencies:
-    chain-function "^1.0.0"
-    dom-helpers "^3.2.0"
-    loose-envify "^1.3.1"
-    prop-types "^15.5.6"
-    warning "^3.0.0"
-
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
 react-treebeard@^2.1.0:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/react-treebeard/download/react-treebeard-2.1.0.tgz#fbd5cf51089b6f09a9b18350ab3bddf736e57800"
@@ -5987,11 +5879,7 @@ react-treebeard@^2.1.0:
     shallowequal "^0.2.2"
     velocity-react "^1.3.1"
 
-<<<<<<< HEAD
-react@^16.2.0:
-=======
 react@latest:
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
   version "16.2.0"
   resolved "http://registry.npm.taobao.org/react/download/react-16.2.0.tgz#a31bd2dab89bff65d42134fa187f24d054c273ba"
   dependencies:
@@ -6584,13 +6472,10 @@ spdx-license-ids@^1.0.2:
   version "1.2.2"
   resolved "http://registry.npm.taobao.org/spdx-license-ids/download/spdx-license-ids-1.2.2.tgz#c9df7a3424594ade6bd11900d596696dc06bac57"
 
-<<<<<<< HEAD
-=======
 spectre.css@^0.5.1:
   version "0.5.1"
   resolved "http://registry.npm.taobao.org/spectre.css/download/spectre.css-0.5.1.tgz#bd60345584bd88143f7d0930119c8f4bbd2822c7"
 
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
 split-string@^3.0.1, split-string@^3.0.2:
   version "3.1.0"
   resolved "http://registry.npm.taobao.org/split-string/download/split-string-3.1.0.tgz#7cb09dda3a86585705c64b39a6466038682e8fe2"
@@ -6882,7 +6767,6 @@ to-regex@^3.0.1:
     extend-shallow "^2.0.1"
     regex-not "^1.0.0"
 
-<<<<<<< HEAD
 toml@^2.3.3:
   version "2.3.3"
   resolved "http://registry.npm.taobao.org/toml/download/toml-2.3.3.tgz#8d683d729577cb286231dfc7a8affe58d31728fb"
@@ -6891,8 +6775,6 @@ tomlify-j0.4@^3.0.0:
   version "3.0.0"
   resolved "http://registry.npm.taobao.org/tomlify-j0.4/download/tomlify-j0.4-3.0.0.tgz#99414d45268c3a3b8bf38be82145b7bba34b7473"
 
-=======
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
 toposort@^1.0.0:
   version "1.0.6"
   resolved "http://registry.npm.taobao.org/toposort/download/toposort-1.0.6.tgz#c31748e55d210effc00fdcdc7d6e68d7d7bb9cec"
@@ -7277,11 +7159,7 @@ wordwrap@0.0.2:
   version "0.0.2"
   resolved "http://registry.npm.taobao.org/wordwrap/download/wordwrap-0.0.2.tgz#b79669bb42ecb409f83d583cad52ca17eaa1643f"
 
-<<<<<<< HEAD
 worker-farm@^1.5.2:
-=======
-worker-farm@^1.4.1, worker-farm@^1.5.2:
->>>>>>> 89d5610520078f4cda069f9497e85b56d5587a52
   version "1.5.2"
   resolved "http://registry.npm.taobao.org/worker-farm/download/worker-farm-1.5.2.tgz#32b312e5dc3d5d45d79ef44acc2587491cd729ae"
   dependencies:
