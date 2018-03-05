@@ -4349,7 +4349,7 @@ mobx-router@latest:
     director "1.2.8"
     query-string "^5.0.1"
 
-mobx-state-tree@latest:
+mobx-state-tree@^1.3.1:
   version "1.3.1"
   resolved "http://registry.npm.taobao.org/mobx-state-tree/download/mobx-state-tree-1.3.1.tgz#9e1ba9b8b6ea183f1a4a2ae1f67bfa8f2bcae4fe"
 
@@ -6364,6 +6364,10 @@ shelljs@^0.7.8:
     glob "^7.0.0"
     interpret "^1.0.0"
     rechoir "^0.6.2"
+
+shortid@^2.2.8:
+  version "2.2.8"
+  resolved "http://registry.npm.taobao.org/shortid/download/shortid-2.2.8.tgz#033b117d6a2e975804f6f0969dbe7d3d0b355131"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"

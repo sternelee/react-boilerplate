@@ -3,6 +3,7 @@ import { toJS } from 'mobx';
 import { Button, Table } from 'antd';
 import { observer } from 'mobx-react';
 import { types as t, onSnapshot } from 'mobx-state-tree';
+import shortid from 'shortid';
 import _ from 'lodash';
 import 'antd/dist/antd.css';
 
@@ -52,6 +53,11 @@ onSnapshot(store, (snapshot) => {
 store.todos[0].toggle()
 // prints: `{ todos: [{ title: "Get coffee", done: true }]}`
 
+// store.name = "Mobx-State-Tree";
+
+// console.log(a);
+
+console.log(shortid.seed(12))
 @observer
 class MobxApp extends Component {
     state = {
