@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { toJS } from 'mobx';
 import { observer } from 'mobx-react';
 import { types as t, onSnapshot } from 'mobx-state-tree';
+import shortid from 'shortid';
 import _ from 'lodash';
 
 
@@ -44,12 +45,14 @@ store.newName('Sterne Lee 2333')
 // store.name = "Mobx-State-Tree";
 
 // console.log(a);
+
+console.log(shortid.seed(12))
 @observer
 class MobxApp extends Component {
     render() {
         const { todos } = store;
         const _todos = toJS(todos);
-        console.log(_.isArray(_todos), _todos);
+        // console.log(_.isArray(_todos), _todos);
         return (
             <div>
                 <h2>I Love Mobx</h2>
