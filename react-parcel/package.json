@@ -42,6 +42,7 @@
     "@storybook/addons": "^3.3.13",
     "@storybook/react": "^3.3.13",
     "babel-core": "latest",
-    "stylus": "latest"
+    "stylus": "latest",
+    "typescript": "^2.7.2"
   }
 }
