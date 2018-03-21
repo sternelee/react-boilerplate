@@ -1,5 +1,5 @@
 const Seq = require('sequelize')
-const seq = new Seq('mysql', 'root', 'root', {
+const seq = new Seq('mysql', 'root', '', {
     host: 'localhost',
     dialect: 'mysql',
 
