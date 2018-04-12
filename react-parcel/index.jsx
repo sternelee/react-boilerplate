@@ -6,22 +6,29 @@ import './index.styl';
 // import appState from './appState.js';
 
 import DevTools from "mobx-react-devtools";
+import Draggable from 'react-draggable';
 
 import TodoList from "./components/TodoList";
 import TodoListModel from "./models/TodoListModel";
 import ListCheck from './ListCheck';
-import MobxApp from './MobxApp';
+// import MobxApp from './MobxApp';
+import makeDrag from './makeDrag';
+import Card from './dnd';
+
+const CardDrag = makeDrag(Card)
 
 const store = new TodoListModel();
 store.addTodo('new Todo');
 const App = () => (
   <div className="App">
     <h2>Hello Parcel</h2>
-    <MobxApp />
+    {/* <MobxApp /> */}
     <DevTools />
     <TodoList store={store} />
     <input type="text"/>
     <ListCheck />
+    <CardDrag defaultPosition={{x: 10, y: 30}} styled={{display: 'inline-block'}} />
+    {/* <Draggable><div style={{display: 'inline-block'}}>I can now be moved around!</div></Draggable> */}
   </div>
 );
 

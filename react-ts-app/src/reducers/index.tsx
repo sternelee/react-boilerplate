@@ -8,7 +8,6 @@ interface ActionTypes {
 
 const initState = 1;
 
-import { RootState, RootAction } from '@types/redux';
 export const todoApp = (state = initState, action: ActionTypes) => {
     switch (action.type) {
         case actionTypes.ADD:
@@ -18,25 +17,25 @@ export const todoApp = (state = initState, action: ActionTypes) => {
     }
 };
 
-export const INCRMENT = 'INCRMENT';
-export const ADD = 'ADD';
+// const INCRMENT = 'INCRMENT';
+// const ADD = 'ADD';
 
-export type Actions = {
-    INCRMENT: {
-        type: typeof INCRMENT,
-    },
-    ADD: {
-        type: typeof ADD,
-        payload: number,
-    },
-};
+// type Actions = {
+//     INCRMENT: {
+//         type: typeof INCRMENT,
+//     },
+//     ADD: {
+//         type: typeof ADD,
+//         payload: number,
+//     },
+// };
 
-export const actions = {
-    increment: (): Actions[typeof INCRMENT] => ({
-        type: INCRMENT,
-    }),
-    add: (amount: number): Actions[typeof ADD] => ({
-        type: ADD,
-        payload: amount
-    })
-}
+// const actions = {
+//     increment: (): Actions[typeof INCRMENT] => ({
+//         type: INCRMENT,
+//     }),
+//     add: (amount: number): Actions[typeof ADD] => ({
+//         type: ADD,
+//         payload: amount
+//     })
+// }

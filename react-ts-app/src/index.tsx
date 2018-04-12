@@ -30,7 +30,7 @@ const store = createStore(
 
 // Now you can dispatch navigation actions from anywhere!
 
-ReactDOM.render(
+const App: React.SFC<{}> = () => (
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <div>
@@ -39,7 +39,10 @@ ReactDOM.render(
         <Route path="/foo" component={Foo}/>
       </div>
     </ConnectedRouter>
-  </Provider>,
+  </Provider>
+);
+ReactDOM.render(
+  <App />,
   document.getElementById('root') as HTMLElement
 );
 registerServiceWorker();
