@@ -2,6 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { createStore } from 'redux'
 import todoApp from './reducers'
+import App from './App'
 import Root from './components/Root'
 
 const initialStore = JSON.parse(localStorage.getItem('reduxStore')) || {
@@ -22,6 +23,7 @@ store.subscribe(() => {
 })
 
 render(
-  <Root store={store} />,
+  // <Root store={store} />,
+  <App />,
   document.getElementById('root')
 )
