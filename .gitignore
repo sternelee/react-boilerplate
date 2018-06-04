@@ -38,6 +38,8 @@
 # production
 /build
 
+/react-typescript-samples
+
 # misc
 .DS_Store
 .env.local
@@ -48,3 +50,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+/react-app/node_modules
+
+/react-app/node_modules
+/react-app/dist
+/react-app/.cache
